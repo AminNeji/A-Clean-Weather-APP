@@ -10,7 +10,7 @@ A simple weather application that provides real-time weather information for any
 
 ## Screenshots
 
-![Example Image](./images/overview.PNG)
+![Example Image](../images/overview.PNG)
 
 ## Installation
 
