@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="search-box">
+            <i class="fas fa-location-arrow"></i>
+            <input type="text" placeholder="Enter Your Location">
+            <button class="fas fa-search" aria-hidden="true"></button>
+        </div>
+        <div class="notfound">
+            <img src="notfound.png" alt="Invalid Location !">
+        </div>
+        <div class="weather-box">
+            <img src="" alt="Oops !">
+            <p class="temperature"></p>
+            <p class="description"></p>
+        </div>
+        <div class="weather-details">
+            <div class="humidity">
+                <i class="fas fa-water"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="wind">
+                <i class="fas fa-wind"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/45e38e596f.js" crossorigin="anonymous"></script>
+</body>
+</html>
